@@ -21,7 +21,7 @@ dir_name=`echo ${dir_name}|sed -e "s/\.txt//"`
 
 mkdir ${dir_name}
 cd ${dir_name}
-
+###
 echo "Preparation reference..."
 ln -s ${reference_fasta}
 if [ -e ${reference_fasta}.bwt.2bit.64 ]; then
